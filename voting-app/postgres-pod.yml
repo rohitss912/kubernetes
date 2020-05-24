@@ -12,10 +12,9 @@ spec:
     env:
       - name: POSTGRES_PASSWORD
         value: postgres
-
     resources:
       limits:
         memory: "128Mi"
-        cpu: "500m"
+        cpu: "100m"
     ports:
       - containerPort: 5432
